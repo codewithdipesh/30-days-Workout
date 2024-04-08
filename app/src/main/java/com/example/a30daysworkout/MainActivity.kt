@@ -28,6 +28,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+/*TODO :- string and drawables and dimens after designing*/
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
