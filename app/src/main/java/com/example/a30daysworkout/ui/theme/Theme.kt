@@ -5,6 +5,8 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.runtime.Composable
+import com.example.a30daysworkout.ui.theme.Shapes
+import com.example.a30daysworkout.ui.theme.Typography
 
 
 private val LightColors = lightColorScheme(
@@ -73,7 +75,7 @@ private val DarkColors = darkColorScheme(
 )
 
 @Composable
-fun _30DaysWorkoutTheme(
+fun WorkoutTheme(
   useDarkTheme: Boolean = isSystemInDarkTheme(),
   content: @Composable() () -> Unit
 ) {
@@ -84,7 +86,10 @@ fun _30DaysWorkoutTheme(
   }
 
   MaterialTheme(
-    colorScheme = colors,
-    content = content
+      colorScheme = colors,
+      content = content,
+      shapes = Shapes,
+      typography = Typography
+
   )
 }
