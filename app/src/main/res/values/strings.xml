@@ -1,3 +1,68 @@
 <resources>
     <string name="app_name">30 Days Workout</string>
+    <string name="day1">Upper Body</string>
+    <string name="day2">Lower Body</string>
+    <string name="day3">Core</string>
+    <string name="day4">Cardio</string>
+    <string name="day5">Upper Body + Lower Body</string>
+    <string name="day6">Cardio + Core</string>
+    <string name="day7">Rest</string>
+    <string name="day8">Cardio + Core</string>
+    <string name="day9">Lower Body</string>
+    <string name="day10">Upper Body</string>
+    <string name="day11">Rest</string>
+    <string name="day12">Cardio + Core</string>
+    <string name="day13">Upper Body + Lower Body</string>
+    <string name="day14">Rest</string>
+    <string name="day15">Core</string>
+    <string name="day16">Rest</string>
+    <string name="day17">Upper Body, Lower Body, Core</string>
+    <string name="day18">Cardio</string>
+    <string name="day19">Core + Upper Body</string>
+    <string name="day20">Lower Body – try an advanced move!</string>
+    <string name="day21">Rest</string>
+    <string name="day22">Upper Body – try an advanced move!</string>
+    <string name="day23">Core + Lower Body</string>
+    <string name="day24">Cardio</string>
+    <string name="day25">Rest</string>
+    <string name="day26">Upper Body + Lower Body</string>
+    <string name="day27">Core + Cardio</string>
+    <string name="day28">Rest</string>
+    <string name="day29">Upper Body</string>
+    <string name="day30">Lower Body</string>
+
+
+
+    <string name="day1des">- Tricep Dip 3 x 12 reps\n- Push Ups 3 x 10 reps\n- Side Planks 3 x 12 reps\n- Plank Ups 3 x 10 reps</string>
+    <string name="day2des">- Squat 3 x 10 reps\n- Side Lunge 3 x 12 reps\n- Back Lunge and Lift 3 x 10 reps\n- Curtsy Lunge 3 x 10 reps\n- Calf Raises 30\n- Wide Leg Open-Toe Squat 20</string>
+    <string name="day3des">- Superman 10 times/n- Cobra 10 times/n- Ab Curl Hollow Hold 20 times/n- Side Lying Inner Thigh 10 times/n- Side Lying Outer Hip 10 times</string>
+    <string name="day4des">Cardio</string>
+    <string name="day5des">- Tricep Dip 3 x 12 reps\n- Push Ups 3 x 10 reps\n- Side Planks 10 times\n- Plank Ups 10 times\n- Squat 10 times\n- Side Lunge 10 times\n- Back Lunge and Lift10 times\n- Curtsy Lunge 10 times\n- Calf Raises 10 times\n- Wide Leg Open-Toe Squat 10 times</string>
+    <string name="day6des">- Superman 10 times/n- Cobra 10 times/n- Ab Curl Hollow Hold 20 times/n- Side Lying Inner Thigh 10 times/n- Side Lying Outer Hip 10 times/n- Finish it by 15 minute Cradio</string>
+    <string name="day7des">Rest</string>
+    <string name="day8des">- Superman 10 times/n- Cobra 10 times/n- Ab Curl Hollow Hold 20 times/n- Side Lying Inner Thigh 10 times/n- Side Lying Outer Hip 10 times/n- Finish it by 15 minute Cradio</string>
+    <string name="day9des">- Squat 3 x 10 reps\n- Side Lunge 3 x 12 reps\n- Back Lunge and Lift 3 x 10 reps\n- Curtsy Lunge 3 x 10 reps\n- Calf Raises 30\n- Wide Leg Open-Toe Squat 20</string>
+    <string name="day10des">- Tricep Dip 3 x 12 reps\n- Push Ups 3 x 10 reps\n- Side Planks 3 x 12 reps\n- Plank Ups 3 x 10 reps</string>
+    <string name="day11des">Rest</string>
+    <string name="day12des">- Superman 10 times/n- Cobra 10 times/n- Ab Curl Hollow Hold 20 times/n- Side Lying Inner Thigh 10 times/n- Side Lying Outer Hip 10 times/n- Finish it by 15 minute Cradio</string>
+    <string name="day13des">- Tricep Dip 3 x 12 reps\n- Push Ups 3 x 10 reps\n- Side Planks 10 times\n- Plank Ups 10 times\n- Squat 10 times\n- Side Lunge 10 times\n- Back Lunge and Lift10 times\n- Curtsy Lunge 10 times\n- Calf Raises 10 times\n- Wide Leg Open-Toe Squat 10 times</string>
+    <string name="day14des">Rest</string>
+    <string name="day15des">- Superman 10 times/n- Cobra 10 times/n- Ab Curl Hollow Hold 20 times/n- Side Lying Inner Thigh 10 times/n- Side Lying Outer Hip 10 times</string>
+    <string name="day16des">Rest</string>
+    <string name="day17des">- Push Ups 3 x 15 times\n- Side Planks 10 times\n- Plank Ups 10 times\n- Squat 10 times\n- Side Lunge 10 times\n- Back Lunge and Lift10 times\n- Curtsy Lunge 10 times\n- Calf Raises 10 times\n- Superman 10 times/n- Cobra 10 times/n- Ab Curl Hollow Hold 20 times/n- Side Lying Inner Thigh 10 times/n- Side Lying Outer Hip 10 times</string>
+    <string name="day18des">Cardio</string>
+    <string name="day19des">-Triceps Dips 3 x 12 reps\n- Push Ups 3 x 15 times\n- Side Planks 10 times\n- Plank Ups 10 times\n- Superman 10 times/n- Cobra 10 times/n- Ab Curl Hollow Hold 20 times/n- Side Lying Inner Thigh 10 times/n- Side Lying Outer Hip 10 times</string>
+    <string name="day20des">Same exercise just need little more push!\n- Squat 3 x 10 times\n- Side Lunge 3 x 10 times\n- Back Lunge and Lift10 times\n- Curtsy Lunge 3 x10 times\n- Calf Raises 2 x 20 times</string>
+    <string name="day21des">Rest</string>
+    <string name="day22des">- Tricep Dip 3 x 12 reps\n- Push Ups 3 x 10 reps\n- Diamond PushUp 3 x 10\n- Side Planks 3 x 12 reps\n- Plank Ups 3 x 10 reps</string>
+    <string name="day23des">- Squat 10 times\n- Side Lunge 10 times\n- Back Lunge and Lift10 times\n- Curtsy Lunge 10 times\n- Calf Raises 10 times\n- Superman 10 times/n- Cobra 10 times/n- Ab Curl Hollow Hold 20 times/n- Side Lying Inner Thigh 10 times/n- Side Lying Outer Hip 10 times</string>
+    <string name="day24des">Cardio</string>
+    <string name="day25des">Rest</string>
+    <string name="day26des">- Tricep Dip 3 x 12 reps\n- Push Ups 3 x 10 reps\n- Side Planks 10 times\n- Plank Ups 10 times\n- Squat 10 times\n- Side Lunge 10 times\n- Back Lunge and Lift10 times\n- Curtsy Lunge 10 times\n- Calf Raises 10 times\n- Wide Leg Open-Toe Squat 10 times</string>
+    <string name="day27des">- Superman 10 times/n- Cobra 10 times/n- Ab Curl Hollow Hold 20 times/n- Side Lying Inner Thigh 10 times/n- Side Lying Outer Hip 10 times/n- Finish it by 15 minute Cradio</string>
+    <string name="day28des">Rest</string>
+    <string name="day29des">- Tricep Dip 3 x 12 reps\n- Push Ups 3 x 10 reps\n- Side Planks 3 x 12 reps\n- Plank Ups 3 x 10 reps</string>
+    <string name="day30des">- Squat 3 x 10 reps\n- Side Lunge 3 x 12 reps\n- Back Lunge and Lift 3 x 10 reps\n- Curtsy Lunge 3 x 10 reps\n- Calf Raises 30\n- Wide Leg Open-Toe Squat 20</string>
+
+
 </resources>
