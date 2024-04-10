@@ -24,7 +24,10 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CardElevation
+import androidx.compose.material3.CenterAlignedTopAppBar
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -48,14 +51,34 @@ import com.example.a30daysworkout.Model.Workout
 
 @Composable
 fun WorkoutApp(){
-   WorkoutList()
+    Scaffold (
+        topBar = {
+            TopBar()
+        },
+        modifier = Modifier
+    ){it->
+        WorkoutList(contentPadding = it)
+    }
+
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun TopBar(modifier: Modifier=Modifier){
+    CenterAlignedTopAppBar(
+        title = {
+            Text(
+                text = stringResource(id = R.string.app_name),
+                style = MaterialTheme.typography.displayLarge)
+        },
+        modifier=modifier)
+}
 
 
 @Composable
 fun WorkoutList(
     modifier: Modifier=Modifier,
+    contentPadding: PaddingValues = PaddingValues(0.dp)
 
 ){
     LazyColumn(
@@ -65,6 +88,7 @@ fun WorkoutList(
                 start = dimensionResource(id = R.dimen.padding_medium),
                 end = dimensionResource(id = R.dimen.padding_medium)
               ),
+        contentPadding = contentPadding
       
         ){
         items(workoutdatalist){workout->

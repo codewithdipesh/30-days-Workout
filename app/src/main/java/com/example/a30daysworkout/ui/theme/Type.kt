@@ -29,7 +29,7 @@ val Typography = Typography(
     displayLarge = TextStyle(
         fontFamily = Cabin,
         fontWeight = FontWeight.Normal,
-        fontSize = 30.sp
+        fontSize = 28.sp
     ),
     //display small -> each day title
     displaySmall = TextStyle(

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">30 Days Workout</string>
+    <string name="app_name">30 Days Workout Challenge</string>
     <string name="day1">Upper Body</string>
     <string name="day2">Lower Body</string>
     <string name="day3">Core</string>
